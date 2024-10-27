@@ -3,12 +3,9 @@
 Commande à retenir :
 * `ls -la`
 
----
-config:
-  look: handDrawn
-  theme: neutral
----
 flowchart LR
-  A[Start] --> B{Decision}
-  B -->|Yes| C[Continue]
-  B -->|No| D[Stop]
+
+A[Hard] -->|Text| B(Round)
+B --> C{Decision}
+C -->|One| D[Result 1]
+C -->|Two| E[Result 2]
