@@ -6,6 +6,7 @@ Commande à retenir :
 *  git add .
 *  git commit -m "nom des changement"
 *  git push
+*  git pull (recuperé)
   
 
 
