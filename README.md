@@ -2,6 +2,12 @@
 ## bandit/overthewire: 
 Commande à retenir :
 * `ls -la`
+*  git status
+*  git add .
+*  git commit -m "nom des changement"
+*  git push
+  
+
 
 ```mermaid
 flowchart LR
