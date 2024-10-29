@@ -13,6 +13,7 @@ L'analyse de fréquence : compter la fréquence des mots ou des phrases.
 Le calcul de statistiques lexicales : analyser la richesse et la diversité du vocabulaire.
 * sémantic : suite de règle qui determine si certaine phrase ont du sens.
 * fichier contenant le code source (source code = programme écrit dans un langage de programmation de haut niveau) = source file
+### 4 Règles a respecté pour qu'un programme fonctionne :
 
 * Synctactically : chaque language a ces règles et doivent être respecté.
 * Sementically = programme qui doit avoir du sens sinon ne donnera pas le résultat voulu.
