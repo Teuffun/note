@@ -36,24 +36,5 @@ C -->|Three| F[Result 3]
 Test debut
 == Vérification
 
-from tabulate import tabulate
-
-tableau_types = [
-    ["int", "Nombres entiers", "42, -5"],
-    ["float", "Nombres décimaux", "3.14, -2.0"],
-    ["str", "Chaînes de caractères", '"Python", "Hello"'],
-    ["bool", "Valeurs logiques", "True, False"],
-    ["list", "Liste ordonnée et modifiable", "[1, 2, 3], ['a', 'b']"],
-    ["tuple", "Liste ordonnée mais immuable", "(1, 2, 3)"],
-    ["set", "Ensemble sans doublons", "{1, 2, 3}"],
-    ["dict", "Dictionnaire clé-valeur", '{"clé": "valeur"}'],
-    ["complex", "Nombres complexes", "3 + 4j"],
-    ["NoneType", "Absence de valeur", "None"],
-    ["bytes", "Données binaires", 'b"data"'],
-    ["range", "Séquence de nombres", "range(5)"]
-]
-
-# Affichage du tableau
-print(tabulate(tableau_types, headers=["Type", "Description", "Exemple"], tablefmt="grid"))
 
 
