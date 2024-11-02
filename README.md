@@ -36,17 +36,3 @@ C -->|Three| F[Result 3]
 Test debut
 == Vérification
 
-tableau_types = [
-    {"Type": "int", "Description": "Nombres entiers", "Exemple": "42, -5"},
-    {"Type": "float", "Description": "Nombres décimaux", "Exemple": "3.14, -2.0"},
-    {"Type": "str", "Description": "Chaînes de caractères", "Exemple": '"Python", "Hello"'},
-    {"Type": "bool", "Description": "Valeurs logiques", "Exemple": "True, False"},
-    {"Type": "list", "Description": "Liste ordonnée et modifiable", "Exemple": "[1, 2, 3], ['a', 'b']"},
-    {"Type": "tuple", "Description": "Liste ordonnée mais immuable", "Exemple": "(1, 2, 3)"},
-    {"Type": "set", "Description": "Ensemble sans doublons", "Exemple": "{1, 2, 3}"},
-    {"Type": "dict", "Description": "Dictionnaire clé-valeur", "Exemple": '{"clé": "valeur"}'},
-    {"Type": "complex", "Description": "Nombres complexes", "Exemple": "3 + 4j"},
-    {"Type": "NoneType", "Description": "Absence de valeur", "Exemple": "None"},
-    {"Type": "bytes", "Description": "Données binaires", "Exemple": 'b"data"'},
-    {"Type": "range", "Description": "Séquence de nombres", "Exemple": "range(5)"},
-]
