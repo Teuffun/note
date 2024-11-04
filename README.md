@@ -50,3 +50,25 @@ tableau_types = [
     {"Type": "bytes", "Description": "Données binaires", "Exemple": 'b"data"'},
     {"Type": "range", "Description": "Séquence de nombres", "Exemple": "range(5)"},
 ]
+##### BASE DU PYTHON A RETENIR
+```pandas
+
+| Type      | Description                   | Exemple              |
+|-----------|-------------------------------|----------------------|
+| int       | Nombres entiers               | 42, -5              |
+| float     | Nombres décimaux              | 3.14, -2.0          |
+| str       | Chaînes de caractères         | "Python", "Hello"   |
+| bool      | Valeurs logiques              | True, False         |
+| list      | Liste ordonnée et modifiable  | [1, 2, 3], ['a', 'b'] |
+| tuple     | Liste ordonnée mais immuable  | (1, 2, 3)           |
+| set       | Ensemble sans doublons        | {1, 2, 3}           |
+| dict      | Dictionnaire clé-valeur       | {"clé": "valeur"}   |
+| complex   | Nombres complexes             | 3 + 4j              |
+| NoneType  | Absence de valeur             | None                |
+| bytes     | Données binaires              | b"data"             |
+| range     | Séquence de nombres           | range(5)            |
+
+
+
+
+
