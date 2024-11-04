@@ -37,6 +37,7 @@ Test debut
 == Vérification
 
 ```pandas
+
 | Type      | Description                   | Exemple              |
 |-----------|-------------------------------|----------------------|
 | int       | Nombres entiers               | 42, -5              |
