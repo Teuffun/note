@@ -35,7 +35,7 @@ C -->|Three| F[Result 3]
 ```
 Test debut
 == Vérification
-
+##### BASE DU PYTHON A RETENIR
 ```pandas
 
 | Type      | Description                   | Exemple              |
