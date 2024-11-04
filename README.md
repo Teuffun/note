@@ -37,6 +37,8 @@ Test debut
 == Vérification
 
 ```tabulate
+flowchart LR
+
 tableau_types = [
     ["int", "Nombres entiers", "42, -5"],
     ["float", "Nombres décimaux", "3.14, -2.0"],
