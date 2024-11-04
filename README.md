@@ -37,8 +37,6 @@ Test debut
 == Vérification
 
 ```pandas
-import pandas as pd
-
 data = {
     "Type": ["int", "float", "str", "bool", "list", "tuple", "set", "dict", "complex", "NoneType", "bytes", "range"],
     "Description": [
