@@ -8,3 +8,8 @@ for i in range(2):
             adjectif = "nimp"
         print(f"Thibault est le plus {adjectif}")
     print(1==1)
+
+fruits = ["pomme", "banane", "cerise"]
+print(fruits[2])
+fruits.append("orange")
+print(fruits[3])
