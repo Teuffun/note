@@ -36,28 +36,46 @@ C -->|Three| F[Result 3]
 Test debut
 == Vérification
 
-```tabulate
-flowchart LR
+```pandas
+markdown_table = df.to_markdown(index=False)
+print(markdown_table)
+import pandas as pd
 
-tableau_types = [
-    ["int", "Nombres entiers", "42, -5"],
-    ["float", "Nombres décimaux", "3.14, -2.0"],
-    ["str", "Chaînes de caractères", '"Python", "Hello"'],
-    ["bool", "Valeurs logiques", "True, False"],
-    ["list", "Liste ordonnée et modifiable", "[1, 2, 3], ['a', 'b']"],
-    ["tuple", "Liste ordonnée mais immuable", "(1, 2, 3)"],
-    ["set", "Ensemble sans doublons", "{1, 2, 3}"],
-    ["dict", "Dictionnaire clé-valeur", '{"clé": "valeur"}'],
-    ["complex", "Nombres complexes", "3 + 4j"],
-    ["NoneType", "Absence de valeur", "None"],
-    ["bytes", "Données binaires", 'b"data"'],
-    ["range", "Séquence de nombres", "range(5)"]
-]
+# Données du tableau
+data = {
+    "Type": ["int", "float", "str", "bool", "list", "tuple", "set", "dict", "complex", "NoneType", "bytes", "range"],
+    "Description": [
+        "Nombres entiers",
+        "Nombres décimaux",
+        "Chaînes de caractères",
+        "Valeurs logiques",
+        "Liste ordonnée et modifiable",
+        "Liste ordonnée mais immuable",
+        "Ensemble sans doublons",
+        "Dictionnaire clé-valeur",
+        "Nombres complexes",
+        "Absence de valeur",
+        "Données binaires",
+        "Séquence de nombres"
+    ],
+    "Exemple": [
+        "42, -5",
+        "3.14, -2.0",
+        '"Python", "Hello"',
+        "True, False",
+        "[1, 2, 3], ['a', 'b']",
+        "(1, 2, 3)",
+        "{1, 2, 3}",
+        '{"clé": "valeur"}',
+        "3 + 4j",
+        "None",
+        'b"data"',
+        "range(5)"
+    ]
+}
 
-# Affichage du tableau
-print(tabulate(tableau_types, headers=["Type", "Description", "Exemple"], tablefmt="grid"))
-
-
+# Créer un DataFrame (tableau pandas)
+df = pd.DataFrame(data)
 
 
 
