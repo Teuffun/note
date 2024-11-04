@@ -37,7 +37,6 @@ Test debut
 == Vérification
 
 ```tabulate
-from tabulate import tabulate
 tableau_types = [
     ["int", "Nombres entiers", "42, -5"],
     ["float", "Nombres décimaux", "3.14, -2.0"],
