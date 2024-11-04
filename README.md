@@ -36,5 +36,43 @@ C -->|Three| F[Result 3]
 Test debut
 == Vérification
 
+```pandas
+import pandas as pd
+
+data = {
+    "Type": ["int", "float", "str", "bool", "list", "tuple", "set", "dict", "complex", "NoneType", "bytes", "range"],
+    "Description": [
+        "Nombres entiers",
+        "Nombres décimaux",
+        "Chaînes de caractères",
+        "Valeurs logiques",
+        "Liste ordonnée et modifiable",
+        "Liste ordonnée mais immuable",
+        "Ensemble sans doublons",
+        "Dictionnaire clé-valeur",
+        "Nombres complexes",
+        "Absence de valeur",
+        "Données binaires",
+        "Séquence de nombres"
+    ],
+    "Exemple": [
+        "42, -5",
+        "3.14, -2.0",
+        '"Python", "Hello"',
+        "True, False",
+        "[1, 2, 3], ['a', 'b']",
+        "(1, 2, 3)",
+        "{1, 2, 3}",
+        '{"clé": "valeur"}',
+        "3 + 4j",
+        "None",
+        'b"data"',
+        "range(5)"
+    ]
+}
+
+df = pd.DataFrame(data)
+print(df)
+
 
 
