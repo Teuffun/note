@@ -36,6 +36,10 @@ Le calcul de statistiques lexicales : analyser la richesse et la diversité du v
 * J = Java 
 * Jython peut communiquer plus efficacement avec l'infrastructure Java existante. C'est pourquoi certains projets le trouvent utile et nécessaire
 * L'implémentation actuelle de Jython suit les normes Python 2. Il n'existe pas de Jython conforme à Python 3, jusqu'à présent.
+### Pypy
+* PyPy est plutôt un outil pour les personnes qui développent Python que pour le reste des utilisateurs , PyPy est compatible avec le langage Python 3.
+
+
 
 ```mermaid
 flowchart LR
