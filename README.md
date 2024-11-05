@@ -33,7 +33,9 @@ Le calcul de statistiques lexicales : analyser la richesse et la diversité du v
   * UNIX
       Unix est un système d'exploitation multitâche et multi-utilisateur, développé dans les années 1970 au sein des laboratoires Bell d'AT&T. Conçu pour être portable, flexible et stable, Unix est à l'origine d'une famille de systèmes d'exploitation, dont Linux et macOS sont des descendants.  
 ## Jython
+* J = Java 
 * Jython peut communiquer plus efficacement avec l'infrastructure Java existante. C'est pourquoi certains projets le trouvent utile et nécessaire
+* L'implémentation actuelle de Jython suit les normes Python 2. Il n'existe pas de Jython conforme à Python 3, jusqu'à présent.
 
 ```mermaid
 flowchart LR
