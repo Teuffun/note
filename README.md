@@ -26,7 +26,7 @@ Le calcul de statistiques lexicales : analyser la richesse et la diversité du v
 ##### Cpython :
 * Cpython : Grâce à lui, Python peut être facilement porté et migré vers toutes les plateformes avec la possibilité de compiler et d'exécuter des programmes en langage « C » (pratiquement toutes les plateformes ont cette fonctionnalité, ce qui ouvre de nombreuses possibilités d'extension pour Python)
 
-* Compilation en C 
+  * Compilation en C 
 
   La compilation en C permet donc de créer des programmes rapides et efficaces, souvent utilisés pour des systèmes d'exploitation, des logiciels embarqués, et des applications nécessitant une grande optimisation des ressources.
   Le langage C est un langage de programmation généraliste et bas niveau, développé dans les années 1970 pour créer des systèmes d'exploitation(UNIX)
