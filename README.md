@@ -38,7 +38,7 @@ Le calcul de statistiques lexicales : analyser la richesse et la diversité du v
 * L'implémentation actuelle de Jython suit les normes Python 2. Il n'existe pas de Jython conforme à Python 3, jusqu'à présent.
 ### Pypy
 * PyPy est plutôt un outil pour les personnes qui développent Python que pour le reste des utilisateurs , PyPy est compatible avec le langage Python 3.
-
+    Représente un environnement Python écrit dans un langage de type Python appelé RPython (Restricted Python). Il s'agit en fait d'un sous-ensemble de Python.
 
 
 ```mermaid
