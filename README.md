@@ -21,7 +21,8 @@ Le calcul de statistiques lexicales : analyser la richesse et la diversité du v
 * alphabetically : programme doit etre ecris dans une langue reconnue.
 * Lexically : ​chaque langage de programmation a son dictionnaire
 #### Créateur du python
-* Guido Van Rossum né en 1956 à Haarlem au Pays-bas 
+* Guido Van Rossum né en 1956 à Haarlem au Pays-bas
+* PSF: Python Software Foundation
 
 
 ```mermaid
@@ -54,6 +55,7 @@ Test debut
 | NoneType  | Absence de valeur             | None                |
 | bytes     | Données binaires              | b"data"             |
 | range     | Séquence de nombres           | range(5)            |
+
 
 
 
