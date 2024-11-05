@@ -25,8 +25,13 @@ Le calcul de statistiques lexicales : analyser la richesse et la diversité du v
 * PSF: Python Software Foundation
 ##### Cpython :
 * Cpython : Grâce à lui, Python peut être facilement porté et migré vers toutes les plateformes avec la possibilité de compiler et d'exécuter des programmes en langage « C » (pratiquement toutes les plateformes ont cette fonctionnalité, ce qui ouvre de nombreuses possibilités d'extension pour Python)
+
 * Compilation en C 
-  La compilation en C permet donc de créer des programmes rapides et efficaces, souvent utilisés pour des systèmes d'exploitation, des logiciels embarqués, et des applications nécessitant une grande optimisation des ressources.  
+
+  La compilation en C permet donc de créer des programmes rapides et efficaces, souvent utilisés pour des systèmes d'exploitation, des logiciels embarqués, et des applications nécessitant une grande optimisation des ressources.
+  Le langage C est un langage de programmation généraliste et bas niveau, développé dans les années 1970 pour créer des systèmes d'exploitation(UNIX)
+  * UNIX
+      Unix est un système d'exploitation multitâche et multi-utilisateur, développé dans les années 1970 au sein des laboratoires Bell d'AT&T. Conçu pour être portable, flexible et stable, Unix est à l'origine d'une famille de systèmes d'exploitation, dont Linux et macOS sont des descendants.  
 
 
 ```mermaid
