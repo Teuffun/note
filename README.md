@@ -23,7 +23,7 @@ Le calcul de statistiques lexicales : analyser la richesse et la diversité du v
 #### Créateur du python
 * Guido Van Rossum né en 1956 à Haarlem au Pays-bas
 * PSF: Python Software Foundation
-##### Cpython :
+### Cpython :
 * Cpython : Grâce à lui, Python peut être facilement porté et migré vers toutes les plateformes avec la possibilité de compiler et d'exécuter des programmes en langage « C » (pratiquement toutes les plateformes ont cette fonctionnalité, ce qui ouvre de nombreuses possibilités d'extension pour Python)
 
   * Compilation en C 
