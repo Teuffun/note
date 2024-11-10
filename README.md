@@ -51,7 +51,7 @@ Le calcul de statistiques lexicales : analyser la richesse et la diversité du v
 * Print() : est capable de fonctionner avec pratiquement tous les types de données offerts par Python. Chaînes, nombres, caractères, valeurs logiques, objets
      n'importe lequel de ces éléments peut être transmis avec succès
   * Print("test\ntest2") : \n = Crée une nouvelle ligne , au lieux de faire 2x print , ont peut l'utlisé une seule fois grâce a \n après la valeur voulue
-  * Print("test\test2) : si ont veux mettre une barre oblique dans une fonction sans qu'elle soit considérée comme ça nature d'echappement , il faut la doublée "\\\" 
+  * Print("test\test2) : si ont veux mettre une barre oblique dans une fonction sans qu'elle soit considérée comme ça nature d'echappement , il faut la doublée "\\\\" 
     Print("test\\test2") pour que le resultat voulu donne : test\test2
   
 
