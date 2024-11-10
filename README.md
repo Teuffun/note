@@ -56,7 +56,7 @@ Le calcul de statistiques lexicales : analyser la richesse et la diversité du v
   * Chaîne : print("The itsy bitsy spider" , "climbed up" , "the waterspout.") Les arguments sont séparés par des virgules
     
      Elles jouent un rôle complètement différent de la virgule à l'intérieur de la chaîne. La première fait partie de la syntaxe de Python, la seconde est destinée à être affichée dans la console.
-  * La manière dont nous passons les arguments à la fonction est la plus courante en Python et s'appelle la manière positionnelle (ce nom vient du fait que la signification de l'argument est dictée par sa position, par exemple, le deuxième argument sera affiché après le premier, et non l'inverse)
+  * La manière dont nous passons les arguments à la fonction est la plus courante en Python et s'appelle la manière positionnelle(the positional way) (ce nom vient du fait que la signification de l'argument est dictée par sa position, par exemple, le deuxième argument sera affiché après le premier, et non l'inverse)
 
 
   
