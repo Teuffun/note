@@ -50,7 +50,7 @@ Le calcul de statistiques lexicales : analyser la richesse et la diversité du v
   * 4 : Python revient à votre code (à l'endroit juste après la demande) et reprend son exécution.
 * Print() : est capable de fonctionner avec pratiquement tous les types de données offerts par Python. Chaînes, nombres, caractères, valeurs logiques, objets
      n'importe lequel de ces éléments peut être transmis avec succès
-  * Print(test\ntest2)
+  * Print("test\ntest2") : \n = Crée une nouvelle ligne , au lieux de faire 2x print , ont peut l'utlisé une seule fois grâce a \n après la valeur voulue 
   
 
 
