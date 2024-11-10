@@ -39,6 +39,12 @@ Le calcul de statistiques lexicales : analyser la richesse et la diversité du v
 ### Pypy
 * PyPy est plutôt un outil pour les personnes qui développent Python que pour le reste des utilisateurs , PyPy est compatible avec le langage Python 3.
   * Représente un environnement Python écrit dans un langage de type Python appelé RPython (Restricted Python). Il s'agit en fait d'un sous-ensemble de Python.
+### Module 2
+* add-on python = Module
+  * ##### 4 fonction du python
+  * 1 : Check si le nom utilisé est legal dans leur base de donnée
+  * 2 :Python vérifie si les exigences de la fonction concernant le nombre d'arguments vous permettent d'invoquer la fonction de cette manière
+    (si une fonction spécifique exige exactement deux arguments, toute invocation ne fournissant qu'un seul argument sera considérée comme erronée et annulera l'exécution du code)
 
 
 ```mermaid
