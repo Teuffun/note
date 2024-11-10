@@ -58,7 +58,8 @@ Le calcul de statistiques lexicales : analyser la richesse et la diversité du v
      Elles jouent un rôle complètement différent de la virgule à l'intérieur de la chaîne. La première fait partie de la syntaxe de Python, la seconde est destinée à être affichée dans la console.
   * La manière dont nous passons les arguments à la fonction est la plus courante en Python et s'appelle la manière positionnelle(the positional way) , (ce nom vient du fait que la signification de l'argument est dictée par sa position, par exemple, le deuxième argument sera affiché après le premier, et non l'inverse)
   * La fonction print() possède deux arguments de mot-clé que vous pouvez utiliser à vos fins. Le premier d'entre eux s'appelle end.
-      Un argument mot-clé se compose de trois éléments : un mot-clé identifiant l'argument ( end ici) ; un signe égal ( =) ; et une valeur attribuée à cet argument ;
+      Un argument mot-clé se compose de trois éléments : un mot-clé identifiant l'argument ( end ici) ; un signe égal ( =) ; et une valeur attribuée à cet argument ;(exemple utilisé :print("My name is", "Python.", end=" ")
+print("Monty Python.")
 tous les arguments de mot-clé doivent être placés après le dernier argument positionnel (c'est très important)
 
 
