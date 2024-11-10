@@ -48,6 +48,9 @@ Le calcul de statistiques lexicales : analyser la richesse et la diversité du v
   * 3 : Python quitte votre code un instant et saute dans la fonction que vous souhaitez invoquer ; bien sûr, il prend également votre/vos argument(s) et le/les passe/nt à la fonction
   * 4 : Exécute son code , provoque l’effet souhaité (le cas échéant), évalue le(s) résultat(s) souhaité(s) (le cas échéant) et termine sa tâche
   * 4 : Python revient à votre code (à l'endroit juste après la demande) et reprend son exécution.
+* Print() : est capable de fonctionner avec pratiquement tous les types de données offerts par Python. Chaînes, nombres, caractères, valeurs logiques, objets
+     n'importe lequel de ces éléments peut être transmis avec succès
+  
 
 
 ```mermaid
