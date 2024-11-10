@@ -61,11 +61,11 @@ Le calcul de statistiques lexicales : analyser la richesse et la diversité du v
       Un argument mot-clé se compose de trois éléments : un mot-clé identifiant l'argument ( end ici) ; un signe égal ( =) ; et une valeur attribuée à cet argument ;(exemple utilisé :print("My name is", "Python.", end=" ")
 print("Monty Python.")
 
-tous les arguments de mot-clé doivent être placés après le dernier argument positionnel (c'est très important)
+  tous les arguments de mot-clé doivent être placés après le dernier argument positionnel (c'est très important)
 
-L'argument mot-clé détermine les caractères que la fonction print() envoie à la sortie une fois qu’elle atteint la fin de ses arguments positionnels.
+  L'argument mot-clé détermine les caractères que la fonction print() envoie à la sortie une fois qu’elle atteint la fin de ses arguments positionnels.
 
-Le comportement par défaut reflète la situation où l’argument (end) mot-clé est implicitement utilisé de la manière suivante : end="\n".
+  Le comportement par défaut reflète la situation où l’argument (end) mot-clé est implicitement utilisé de la manière suivante : end="\n".
 
 
   
