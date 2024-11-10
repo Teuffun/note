@@ -54,6 +54,7 @@ Le calcul de statistiques lexicales : analyser la richesse et la diversité du v
   * Print("test\test2) : si ont veux mettre une barre oblique dans une fonction sans qu'elle soit considérée comme ça nature d'echappement , il faut la doublée "\\\\" 
        Exemple : Print("test\\test2") pour que le resultat voulu donne : test\test2
   * Chaîne : print("The itsy bitsy spider" , "climbed up" , "the waterspout.") Les arguments sont séparés par des virgules
+    
      Elles jouent un rôle complètement différent de la virgule à l'intérieur de la chaîne. La première fait partie de la syntaxe de Python, la seconde est destinée à être affichée dans la console.
 
 
