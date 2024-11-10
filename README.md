@@ -66,6 +66,8 @@ print("Monty Python.")
     L'argument mot-clé détermine les caractères que la fonction print() envoie à la sortie une fois qu’elle atteint la fin de ses arguments positionnels.
 
     Le comportement par défaut reflète la situation où l’argument (end) mot-clé est implicitement utilisé de la manière suivante : end="\n".
+   * L'argument (sep="?") exemple : print("My", "name", "is", "Monty", "Python.", sep="-") L' argument mot-clé qui peut faire cela est nommé sep(comme séparateur ).
+     
 
 
   
