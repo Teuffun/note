@@ -105,8 +105,13 @@ Test debut
 | bytes     | Données binaires              | b"data"             |
 | range     | Séquence de nombres           | range(5)            |
 
+###### .
 
+opérateurs arithmétiques :  +,  -,  *,  /,  //,  %, **
+ Il est possible de formuler les règles suivantes à partir de ce résultat :
 
+lorsque les deux ** arguments sont des entiers, le résultat est également un entier ;
+lorsqu'au moins un ** argument est un float, le résultat est également un float.
 
 
 
